@@ -1,0 +1,58 @@
+services:
+  client:
+    build: ./client
+    container_name: client
+    restart: always
+    command: >
+      sh -c "pnpm run dev"
+    volumes:
+      - ./client/:/usr/src/app/client
+    ports:
+      - "80:5173"
+    depends_on:
+      - server
+    networks:
+      - network
+
+  server:
+    build: ./server
+    container_name: server
+    restart: always
+    environment:
+      - PORT=2000
+      # - CLIENT_URL=http://localhost:5173
+      # - JWT_SECRET=secret
+      # - POSTGRES_PORT=5432
+      # - POSTGRES_USER=admin
+      # - POSTGRES_PASSWORD=password
+      # - POSTGRES_DB=admin-app
+      # - POSTGRES_HOST=database
+    command: >
+      sh -c "pnpm run dev"
+    volumes:
+      - ./server/:/usr/src/app/server
+    ports:
+      - "3000:3000"
+    # depends_on:
+    #   - database
+    networks:
+      - network
+
+  # database:
+  #   image: postgres
+  #   container_name: database
+  #   restart: always
+  #   environment:
+  #     - POSTGRES_USER=admin
+  #     - POSTGRES_PASSWORD=password
+  #     - POSTGRES_DB=admin-app
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - /home/alpha/WorkDir/sd.projectIntern/admin-app/database/data:/var/lib/postgresql/data
+  #   networks:
+  #     - network
+
+networks:
+  network:
+    driver: bridge
