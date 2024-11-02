@@ -26,8 +26,6 @@ The wiki contains all the data you need but the catch is .... are you a jailbrea
 For Software:
 - JavaScript,Python,HTML
 - React, Flask, TensorFlow, PyTorch
-- 
-- [Tools used]
 
 ### Implementation
 For Software:
@@ -44,50 +42,28 @@ flask --app server --debug run --port 5000 // Inside the root directory
 For Software: The webstite is a online encyclopedia which contains a chatbot. Jailbreak the chatbot and make it say a particular keyword which the gives the decrypted format of the content. The webstite refreshes every five minute so we have to decrypt it within 5 minute
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![1b498af7-2a04-421f-8152-a1a09008145a](https://github.com/user-attachments/assets/478a4d08-0c01-4b57-80d0-e53573c3323b)
+This photo provides an outlook on the design aspect of the reWiki project and showcases our website
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![2536af3f-2221-42db-9097-6b8bb95f9bb9](https://github.com/user-attachments/assets/8eab5098-5862-47ca-a0b4-115fec480e6d)
+This photo shows the data which is needed by the user but shown in encrypted format which needs a paskey to decrypt
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![00bb7a04-9cfa-4f34-8a58-b7b1ed0c2af4](https://github.com/user-attachments/assets/7c8b64a9-e103-4373-ae03-6b946d043a40)
+This photo showcases the chatbot which needs to be jailbreaked inorder to obtain the passkey which is needed to decrypt the data from the above picture
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
 
 ### Project Demo
 # Video
 [Add your demo video link here]
 *Explain what the video demonstrates*
 
-# Additional Demos
-[Add any extra demo materials/links]
-
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Sharon P Shajan: Backend Development
+- Pranav S: Chatbot Development
+- Karthik Krishna: Frontend Development
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
