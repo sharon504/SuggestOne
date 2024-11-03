@@ -57,7 +57,9 @@ This photo showcases the chatbot which needs to be jailbreaked inorder to obtain
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+
+https://github.com/user-attachments/assets/08967c22-15b7-4e3e-af34-7c2c5baea625
+
 *Explain what the video demonstrates*
 
 ## Team Contributions
